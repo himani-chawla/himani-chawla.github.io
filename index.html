@@ -1,181 +1,131 @@
-
-
-
-<!--
-@created:           06/07/2018
-@today:             06/07/2018
-@project:           One Trust POC
-			
-@author:            Ankur Mahajan
-			
-@version:           $Revision:$1
--->
-			
-			
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-  <meta charset="utf-8">
-    <meta name="generator" content="">
-    <meta name="description" content="">
-    <meta name="keywords" content="">
-    <title>Warner Bros Consent Manager</title>
+<head>
+<meta charset="utf-8">
+<meta name="generator" content="">
+<meta name="description" content="">
+<meta name="keywords" content="">
+<title>Warner Bros Consent Manager</title>
 
-	
-<!-- Google Tag Manager -->
-<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-})(window,document,'script','dataLayer','GTM-5BV77LZ');</script>
-<!-- End Google Tag Manager -->
 
- 
 <!-- Google Tag Manager -->
-<!--<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-})(window,document,'script','dataLayer','GTM-57LFVZF');</script>-->
-<!-- End Google Tag Manager -->
-<!-- Adobe Launch Tag Manager -->
-<!-- <script src="//assets.adobedtm.com/launch-ENb0192ddce33f4369bea42a2d9484acc5-development.min.js"></script> -->
-<!-- End Adobe Launch Tag Manager -->
-    
-	
-	
+<script>
+	(function(w, d, s, l, i) {
+		w[l] = w[l] || [];
+		w[l].push({
+			'gtm.start' : new Date().getTime(),
+			event : 'gtm.js'
+		});
+		var f = d.getElementsByTagName(s)[0], j = d.createElement(s), dl = l != 'dataLayer' ? '&l='
+				+ l
+				: '';
+		j.async = true;
+		j.src = 'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
+		f.parentNode.insertBefore(j, f);
+	})(window, document, 'script', 'dataLayer', 'GTM-T8W69LG');
+</script>
+
 <style>
-
-@import url(https://fonts.googleapis.com/css?family=Droid+Sans:400,700|Open+Sans:400italic);
-
+@import
+	url(https://fonts.googleapis.com/css?family=Droid+Sans:400,700|Open+Sans:400italic)
+	;
 
 body {
-    font-family:Droid Sans;
-	font-size:14px;
+	font-family: Droid Sans;
+	font-size: 14px;
 }
 
 .footer {
-    margin-top: 20px;
-    padding: 20px 0;
-    text-align: center;
-	font-size:12px;
+	margin-top: 20px;
+	padding: 20px 0;
+	text-align: center;
+	font-size: 12px;
 }
-
-
-
 
 .notes {
-	font-size:12px;
-	font-style:Open Sans;
-	line-height:20px;
+	font-size: 12px;
+	font-style: Open Sans;
+	line-height: 20px;
 }
-
-
 </style>
 
-    <!--[if IE]>
-    <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
-    <![endif]-->
-
-  </head>
-  <body>
-  <!-- Google Tag Manager (noscript) -->
-<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-5BV77LZ"
-height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-<!-- End Google Tag Manager (noscript) -->
-
-  <!-- Google Tag Manager (noscript) -->
-<!--<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-57LFVZF"
-height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>-->
-<!-- End Google Tag Manager (noscript) -->
-
-<div id="consent_blackbar"></div>
-
-<table width="700" bgcolor="#7db137" align="center">
-<tr>
-
-<td width="30"><img src="https://www.warnerbros.com/sites/default/files/US_WBLOGO.png"></td>
-
-<td><b style="font-size:24px; font-family:Droid Sans; color:#ba1a92;"></b>
-<br><span style="font-size:24px; font-family:Droid Sans; color:#ba1a92;"></span></td>
-</tr>
-</table>
+</head>
+<body>
+	<!-- Google Tag Manager (noscript) -->
+	<noscript>
+		<iframe src="https://www.googletagmanager.com/ns.html?id=GTM-5BV77LZ"
+			height="0" width="0" style="display: none; visibility: hidden"></iframe>
+	</noscript>
 
 
-<table width="700" style="padding: 25px 25px 250px 25px" align="center">
+	<div id="consent_blackbar"></div>
+
+	<table width="700" bgcolor="#7db137" align="center">
+		<tr>
+
+			<td width="30"><img
+				src="https://www.warnerbros.com/sites/default/files/US_WBLOGO.png"></td>
+
+			<td><b
+				style="font-size: 24px; font-family: Droid Sans; color: #ba1a92;"></b>
+				<br>
+			<span
+				style="font-size: 24px; font-family: Droid Sans; color: #ba1a92;"></span></td>
+		</tr>
+	</table>
 
 
-<tr>
-<td>
-
-<div><strong>GDPR: WHAT IS CHANGING?</strong></div>
-
-	<ul>
-    <li>With the GDPR, the user consent must be given prior to the setting of the non-essential cookies, so that only strictly necessary cookies are initially set</li>
-	<li>Consenting to cookies needs to be a clear affirmative action</li>
-	<li>All given consents must be recorded as evidence</li>
-	</ul>
-	
-<div><strong>WHO IS IMPACTED</strong></div>
-    <ul>
-    <li>The Global Websites which have EU customers will get impacted and on those websites, no non-essential cookies or trackers shall be dropped onto the user's browser until consent has been given by the user to do so</li>
-	</ul>
-
-<div id="ytDiv" style="display: none;">
-<iframe id="myFrame" ></iframe>
-</div>
-<!--<iframe width="420" height="315" src="https://www.youtube.com/embed/tgbNymZ7vqY">
-        </iframe>-->
-	
-
-<hr>
-
-<br>
-<br>
-<p>Click on the <b>Cookie Preferences</b> link below.</p>
-<br>
-
-<!--<footer id ="wb_consent" >-->
-<footer>
-<!-- OneTrust Cookies Settings button start -->
-<a class="optanon-show-settings">Cookie Settings</a>
-<!-- OneTrust Cookies Settings button end -->
-<!-- OneTrust Cookies List start -->
-
-<div id="optanon-cookie-policy"></div>
-
-<!-- OneTrust Cookies List end -->
-</footer>
-
-</td>
-</tr>
+	<table width="700" style="padding: 25px 25px 250px 25px" align="center">
 
 
-</table>
+		<tr>
+			<td>
+
+				<div>
+					<strong>GDPR: WHAT IS CHANGING?</strong>
+				</div>
+
+				<ul>
+					<li>With the GDPR, the user consent must be given prior to the
+						setting of the non-essential cookies, so that only strictly
+						necessary cookies are initially set</li>
+					<li>Consenting to cookies needs to be a clear affirmative
+						action</li>
+					<li>All given consents must be recorded as evidence</li>
+				</ul>
+
+				<div>
+					<strong>WHO IS IMPACTED</strong>
+				</div>
+				<ul>
+					<li>The Global Websites which have EU customers will get
+						impacted and on those websites, no non-essential cookies or
+						trackers shall be dropped onto the user's browser until consent
+						has been given by the user to do so</li>
+				</ul>
+
+				<div id="ytDiv" style="display: none;">
+					<iframe id="myFrame"></iframe>
+				</div> 
+
+				<hr> <br> <br>
+				<p>
+					Click on the <b>Cookie Preferences</b> link below.
+				</p> <br> <!--<footer id ="wb_consent" >--> <footer>
+					<!-- OneTrust Cookies Settings button start -->
+					<a class="optanon-show-settings">Cookie Settings</a>
+					<!-- OneTrust Cookies Settings button end -->
+					<!-- OneTrust Cookies List start -->
+
+					<div id="optanon-cookie-policy"></div>
+
+					<!-- OneTrust Cookies List end -->
+				</footer>
+
+			</td>
+		</tr>
 
 
-
-
-
-
-
-
-
-<table width="700" align="center" class="footer">
-
-
-
-<tr><td></td></tr>
-<tr><td></td></tr>
-<tr><td></td></tr>
-
-<tr>
-
-</tr>
-
-<tr>
-</tr>
-
-</table>
-  </body>
+	</table>
+</body>
 </html>
