@@ -54,7 +54,7 @@ body {
 <body>
 	<!-- Google Tag Manager (noscript) -->
 	<noscript>
-		<iframe src="https://www.googletagmanager.com/ns.html?id=GTM-T8W69LG"
+		<iframe src="https://www.googletagmanager.com/ns.html?id=GTM-5BV77LZ"
 			height="0" width="0" style="display: none; visibility: hidden"></iframe>
 	</noscript>
 
@@ -69,8 +69,7 @@ body {
 
 			<td><b
 				style="font-size: 24px; font-family: Droid Sans; color: #ba1a92;"></b>
-				<br>
-			<span
+				<br> <span
 				style="font-size: 24px; font-family: Droid Sans; color: #ba1a92;"></span></td>
 		</tr>
 	</table>
@@ -107,7 +106,7 @@ body {
 
 				<div id="ytDiv" style="display: none;">
 					<iframe id="myFrame"></iframe>
-				</div> 
+				</div>
 
 				<hr> <br> <br>
 				<p>
@@ -128,5 +127,93 @@ body {
 
 
 	</table>
+	<script
+		src="//d27uljf3hribx0.cloudfront.net/assets/krux.min-4654533f855dee611c1c5434e0d64359d62f61d0aaaf1ada9611cc12a0198302.js"
+		class="kxct" data-id="JZVXdZfR" data-timing="async" data-version="1.9">
+</script>
+
+	<!-- Begin BlueKai Tag -->
+	<iframe name="__bkframe" height="0" width="0" frameborder="0"
+		style="display: none; position: absolute; clip: rect(0px, 0px, 0px, 0px)"
+		src="about:blank"></iframe>
+	<script type="text/javascript"
+		src="https://tags.bkrtx.com/js/bk-coretag.js"></script>
+	<script type="text/javascript">
+function addBKTagIfExists (param, tag) {
+//   console.log('%s = %s', param, tag);
+   if (!param) return;
+   bk_addPageCtx(tag, param);
+}
+        
+  bk_addPageCtx("TW_OU", 'WB - LATAM');
+  bk_addPageCtx("Seat", 'LATAM');
+  bk_addPageCtx("TagType", 'ResponsiveWeb');
+  bk_addPageCtx("TagVersion", '2');
+  bk_addPageCtx("Asset", 'WarnerBrosLatino.com');
+      
+  try{
+    if (typeof(window.dataLayer) !== 'undefined' && window.dataLayer.length && window.dataLayer[0].page) {
+        //Get content type, content title, eidr
+        var page = window.dataLayer[0].page;
+        addBKTagIfExists(page.contentType, 'wbcomCntType');
+        addBKTagIfExists(page.title, 'wbcomTitle');
+        addBKTagIfExists(page.eidrAbstract, 'wbcomEIDR');
+        addBKTagIfExists(page.eidrEdit, 'wbcomEIDREdit');
+        addBKTagIfExists(page.mpm, 'wbcomMPM');
+        addBKTagIfExists(page.genres, 'wbcomGenres');
+    
+    }
+   }
+   catch (e) {
+     console.warn(e);
+   }
+  
+  try {
+    var metaTags = document.getElementsByTagName('meta');
+    for (var a in metaTags) {
+      var elem = metaTags[a];
+       if ( elem && elem.getAttribute && elem.getAttribute('property') === 'og:description' ) {            var description = elem.getAttribute('content') ;
+         addBKTagIfExists(description, 'wbcomPGDesc');
+      }
+    }
+  } catch(e){
+    console.warn(e);
+  }
+  
+  
+bk_doJSTag(54642, 10); 
+</script>
+	<!-- End BlueKai Tag -->
+
+	<!-- Facebook Pixel Code  -->
+	<script>
+!function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+n.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!f._fbq)f._fbq=n;
+n.push=n;n.loaded=!0;n.version='2.0';n.queue=[];t=b.createElement(e);t.async=!0;
+t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}(window,
+document,'script','https://connect.facebook.net/en_US/fbevents.js');
+fbq('init', '1387744037987982');
+fbq('track', "PageView");
+    fbq('track','ViewContent');
+</script>
+	<noscript>
+		<img height="1" width="1" style="display: none"
+			src="https://www.facebook.com/tr?id=1387744037987982&ev=PageView&noscript=1" /><img
+			height="1" width="1" style="display: none"
+			src="https://www.facebook.com/tr?id=1387744037987982&ev=ViewContent&noscript=1" />
+	</noscript>
+	<!-- End Facebook Pixel Code -->
+
+	<!-- Twitter universal website tag code -->
+	<script>
+!function(e,t,n,s,u,a){e.twq||(s=e.twq=function(){s.exe?s.exe.apply(s,arguments):s.queue.push(arguments);
+},s.version='1.1',s.queue=[],u=t.createElement(n),u.async=!0,u.src='//static.ads-twitter.com/uwt.js',
+a=t.getElementsByTagName(n)[0],a.parentNode.insertBefore(u,a))}(window,document,'script');
+// Insert Twitter Pixel ID and Standard Event data below
+twq('init','ny2xr');
+twq('track','PageView');
+</script>
+	<!-- End Twitter universal website tag code -->
+
 </body>
 </html>
