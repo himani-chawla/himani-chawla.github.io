@@ -10,13 +10,15 @@
 	
 <!-- OneTrust Cookies Consent Notice start -->
 
-<!-- script src="https://optanon.blob.core.windows.net/consent/6a42d19d-9843-458d-891b-114db93620e7-test.js" type="text/javascript" charset="UTF-8"></script>
+<!-- script src="https://optanon.blob.core.windows.net/consent/6a42d19d-9843-458d-891b-114db93620e7-test.js" type="text/javascript" charset="UTF-8"></script -->
 
 <script type="text/javascript">
 
-function OptanonWrapper() { }
+function OptanonWrapper() {
+window.dataLayer.push({"event":"GroupsUpdated"});
+}
 
-</script -->
+</script>
 
 <!-- OneTrust Cookies Consent Notice end -->
 
@@ -122,6 +124,14 @@ body {
 					<!-- OneTrust Cookies List start -->
 
 					<div id="optanon-cookie-policy"></div>
+					<div id="dnsDiv" style="display: none;">
+						<a class="optanon-toggle-display" data-ignore-geolocation="true"> 
+							Do Not Sell My Personal	Information 
+						</a>
+					</div>
+					<div id=" euCsDiv" style="display: none;">
+						<a class="optanon-show-settings" data-ignore-geolocation="true"> Privacy Settings</a>
+					</div>
 
 					<!-- OneTrust Cookies List end -->
 				</footer>
